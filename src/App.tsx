@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import { GameBoard } from "./components/gameBoard/GameBoard";
 
 function App() {
   return (
     <div className="App">
-      <h1>COUCOU</h1>
+      <GameBoard />
     </div>
   );
 }
